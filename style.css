@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace; font-size: medium;
+    scroll-behavior: smooth;
 }
 
 
@@ -76,6 +77,11 @@
     height: fit-content;
 }
 
+#tourism {
+    height: fit-content;
+    padding: 70px 0;
+}
+
 .section p {
     width: 50%;
     text-align: center;
@@ -88,6 +94,13 @@
     font-size: 2rem;
     color: white;
     font-weight: bold;
+    padding: 20px 0;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
     padding: 20px 0;
 }
 
